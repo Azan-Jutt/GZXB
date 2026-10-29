@@ -1,0 +1,151 @@
++
++
++
++
++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex container</title>
+    <style>
+.flex-container{
+    display: flex;
+border: 2px solid green ;
+background-color:rgb(240, 93, 227) ;
+flex-wrap: wrap;
+height: 300px;
+width: 900px;
+border-radius: 15px;
+transition-property: width, background-color;
+transition-duration: 3s;
+transition-timing-function: 
+linear;
+transition-delay: 0s;
+
+}
+.flex-container > div{
+    background-color: rgb(243, 226, 68);
+color: aliceblue;
+line-height: 30px;
+text-align: center;
+justify-content: center;           
+margin: 10px;
+width: 85px;
+border-radius: 10px;
+
+}
+.flex-container:hover{
+    background-color: aqua;
+}
+.flex-container > div:hover{
+background-color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <!-- parent -->
+<div>a</div>
+<div>b</div>
+<div>c</div>
+<div>d</div>
+<div>e</div>
+<div>f</div>
+<div>g</div>
+<div>h</div>
+<div>i</div>
+    </div>
+</body>
+</html>
